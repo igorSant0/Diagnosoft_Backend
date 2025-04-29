@@ -18,7 +18,7 @@ The system allows doctors to create **customized forms** to conduct **clinical s
 ### 1. Clone this Repository
 
 ```bash
-git clone https://seu-repositorio.git
+git clone [https://seu-repositorio.git](https://github.com/igorSant0/Diagnosoft_Backend.git)
 ```
 
 
