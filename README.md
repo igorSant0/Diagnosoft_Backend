@@ -1,44 +1,44 @@
-# 🩺 Projeto Integrador - Front-end
+# 🩺 Integrating Project - Back-end
 
-Este repositório contém o front-end do projeto desenvolvido para a disciplina de **Projeto Integrador**, com foco na criação de um sistema voltado para a área médica.
+This repository contains back-end files related to the development of a health-focused system for the **Integrating Project** course.
 
-O sistema permite que médicos criem **formulários personalizados** para realização de **pesquisas clínicas**, com o objetivo de **auxiliar na obtenção de diagnósticos mais precisos** para seus pacientes.
-
----
-
-## ⚙️ Requisitos
-
-- [Docker](https://www.docker.com/) instalado
+The system allows doctors to create **customized forms** to conduct **clinical searches**, aiming to **improve diagnostic accuracy** for patients.
 
 ---
 
+## ⚙️ Requirements
 
-## Como Executar em Desenvolvimento
+- install [Docker](https://www.docker.com/)
 
-### 1. Clonar este Repositório
+---
+
+
+## How to execute the environment
+
+### 1. Clone this Repository
 
 ```bash
 git clone https://seu-repositorio.git
 ```
 
 
-### 2. Build dos Contêineres
+### 2. Build the Containers
 
-Para construir o contêiner:
+to build a container:
 
 ```bash
 docker compose build 
 ```
 
-Caso queira forçar a reconstrução sem usar cache:
+To force a reconstruction without the cache:
 
 ```bash
 docker compose build --no-cache
 ```
 
-### 4. Subir o Projeto
+### 4. Up the project
 
-Depois de construir, execute:
+After to build, run:
 
 ```bash
 docker compose up
